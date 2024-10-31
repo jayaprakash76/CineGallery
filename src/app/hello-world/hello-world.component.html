@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="left">
+      <!-- Logo -->
+      <img src="path-to-your-logo.png" alt="Logo">
+    </div>
+    <div class="right">
+      <!-- Links -->
+      <div class="row" *ngFor="let row of linkRows">
+        <div class="column" *ngFor="let link of row">
+          <a href="#">{{ link }}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  

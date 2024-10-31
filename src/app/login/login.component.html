@@ -1,0 +1,21 @@
+<div class="login-container">
+<img class="film" src="assets/images/film.png" alt="">
+    <div class="logo">Unlock the Magic of Movies</div>
+    <div class="desc">
+        Join our community of film enthusiasts and discover the best (and worst) in cinema. At Rotten Potatoes, we bring together movie lovers to share reviews, ratings, and insights. Whether you're looking for a hidden gem or a cinematic flop, our platform is your go-to source for all things film. Log in to explore and contribute to our vibrant movie discussion!    </div>
+    <div class="login-form">
+        <div class="from-group">
+            <label for="uname">Username</label>
+            <input class="form-control" type="text" name="uname"  [(ngModel)]="username" />
+        </div>
+        <div class="form-group">
+            <label for="pword">Password</label>
+            <input class="form-control" type="password" name="pword" [(ngModel)]="password" />
+            <br>
+        </div>
+        <div class="btn-container">
+            <div class="error">{{errorMsg}}</div>
+            <button class="btn btn-dark" (click)="login()">Login</button>
+        </div>
+    </div>
+</div>
