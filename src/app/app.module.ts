@@ -104,6 +104,7 @@ import { HeaderComponent } from './header/header.component';
 import { MovieComponent } from './movie/movie.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { LatestReleasesComponent } from './latest-releases/latest-releases.component';
 // import { FeatureModule } from './feature/feature.module';
 
 @NgModule({
@@ -112,7 +113,8 @@ import { HttpClientModule } from '@angular/common/http';
     LoginComponent,
     HomeComponent,
     HeaderComponent,
-    MovieComponent
+    MovieComponent,
+    LatestReleasesComponent
   ],
   imports: [
     BrowserModule,

@@ -1,6 +1,6 @@
 .home-container {
     display: flex;
-
+    /* background-color: black; */
     .all-movies {
         width: 75%;
         min-height: calc(100vh - 80px);

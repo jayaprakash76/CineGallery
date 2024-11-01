@@ -1,0 +1,50 @@
+.latest-releases-container {
+    padding: 15px;
+    border-left: 2px solid orange;
+    
+  }
+  
+  .movie-item {
+    display: flex;
+    margin-bottom: 15px;
+  }
+  
+  .movie-image {
+    width: 60px;
+    height: 90px;
+    margin-right: 10px;
+    border-radius: 4px;
+  }
+  
+  .movie-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .star-rating {
+    color: gold;
+  }
+  .h2{
+    font: bolder;
+  }
+  .fa-star,
+  .fa-star-o {
+    margin-right: 2px;
+  }
+  
+  .rating {
+    font-size: 0.9em;
+    color: gray;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  ul li {
+    font-size: 0.85em;
+    color: #555;
+  }
+  

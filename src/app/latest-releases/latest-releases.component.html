@@ -1,0 +1,19 @@
+<div class="latest-releases-container">
+    <h2><b>Latest Releases</b></h2>
+    <div *ngFor="let movie of latestMovies" class="movie-item">
+      <img [src]="movie.imageUrl" alt="{{ movie.title }}" class="movie-image" />
+      <div class="movie-info">
+        <h4>{{ movie.title }}</h4>
+        <div class="star-rating">
+          <span *ngFor="let star of [].constructor(5)">
+            <i class="fa" [ngClass]="star < movie.rating ? 'fa-star' : 'fa-star-o'"></i>
+          </span>
+          <span class="rating">{{ movie.rating }}/5</span>
+        </div>
+        <ul>
+          <li *ngFor="let review of movie.reviews">{{ review }}</li>
+        </ul>
+      </div>
+    </div>
+</div>
+  
